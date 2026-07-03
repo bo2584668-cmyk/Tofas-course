@@ -62,6 +62,11 @@ form {
     width:100%;
     border-radius:12px;
 }
+.cards-container {
+    display: flex;
+    gap:20px;
+    width:30%;
+}
 label {
     font-weight:bold;
     display:block;
@@ -85,4 +90,3 @@ input:focus {
     width:260px;
     border-radius:16px;
 }
-
