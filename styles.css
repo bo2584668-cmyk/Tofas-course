@@ -98,3 +98,27 @@ section {
     margin-top:40px;
     
 }
+.navbar {
+    background-color:white;
+    padding:20px 32px;
+    border-radius: 12px;
+    display:flex;
+    justify-content
+    align-items:center;
+}
+.navbar h2 {
+    color:#1d4ed8;
+}
+.nav-links {
+    display:flex;
+    gap:20px;
+}
+.nav-links a {
+    color:#111827;
+    text-decoration: none;
+    font-weight:bold;
+    
+}
+.nav-links a:hover {
+    color: #1d4ed8;
+}
