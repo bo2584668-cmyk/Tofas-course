@@ -3,10 +3,9 @@ h1 {
     font-size:36px;
     text-align:center;
 }
-
+h2,
 h3 {
     color:#111827;
-    
 }
 p {
     font-size: 18px;
@@ -60,7 +59,7 @@ form {
     color:white;
     padding:8px 12px;
     border-radius: 20px;
-    font-family :14px;
+    font-size :14px;
 }
 .highlight {
     color:#1d4ecd;
@@ -79,7 +78,7 @@ form {
 .cards-container {
     display: flex;
     gap:20px;
-    width:30%;
+    width:100%;
 }
 label {
     font-weight:bold;
@@ -93,7 +92,6 @@ input {
     margin-bottom: 16px;
     border:1px solid #cccccc;
     border-radius:8px;
-    
 }
 input:focus {
     outline:none;
@@ -106,7 +104,6 @@ input:focus {
 }
 section {
     margin-top:40px;
-    
 }
 .navbar {
     background-color:white;
@@ -127,7 +124,6 @@ section {
     color:#111827;
     text-decoration: none;
     font-weight:bold;
-    
 }
 .nav-links a:hover {
     color: #1d4ed8;
@@ -141,13 +137,11 @@ section {
 .banner img{
     width:100%;
     display:block;
-    
 }
 .banner-text {
     position: absolute;
     top:40px;
     left:40px;
     color:white;
-     max-width:400;
-}   
+    max-width:400px;
 }
