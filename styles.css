@@ -16,7 +16,7 @@ button {
     background-color:#1d4ecd;
     color:white;
     padding:12px 20px;
-    border: none
+    border: none;
     border-radius:8px;
     cursor:pointer;
     transition:0.3s;
@@ -45,7 +45,7 @@ form {
 }
 #hero {
     background:white;
-    panding:32px;
+    padding:32px;
     border-radius:12px;
     display:flex;
     align-items:center;
@@ -87,7 +87,7 @@ input {
 }
 input:focus {
     outline:none;
-    border-color:1d4e28;
+    border-color:#1d4e28;
     background-color:#eef4ff;
 }
 #hero img {
@@ -103,7 +103,7 @@ section {
     padding:20px 32px;
     border-radius: 12px;
     display:flex;
-    justify-content
+    justify-content:space-between;
     align-items:center;
 }
 .navbar h2 {
